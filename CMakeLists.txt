@@ -8,4 +8,6 @@ add_executable(sqrt src/babyloniansqrt.c
                     src/bakhshalisqrt.c 
                     src/twovaritsqrt.c 
                     src/taylorsqrt.c
+                    src/bitsqrt.c
+                    src/newtonsqrt.c
                     src/main.c)

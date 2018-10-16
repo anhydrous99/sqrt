@@ -9,6 +9,7 @@ int main(void)
   printf("The square root of %f using the babylonian method is %f\n", y, babyloniansqrt(y));
   printf("The square root of %f using the bakhshli method is %f\n", y, bakhshalisqrt(y));
   printf("The square root of %f using the two-variable iterative method %f\n", y2, twovaritsqrt(y2));
-  printf("the square root of %f using the taylor series around 1 to the 5th term is %f\n", y2, taylorsqrt(y2));
+  printf("The square root of %f using the taylor series around 1 to the 5th term is %f\n", y2, taylorsqrt(y2));
+  printf("The square root of %f by bit shifting is %f\n", y, bitsqrt(y));
   return 0;
 }

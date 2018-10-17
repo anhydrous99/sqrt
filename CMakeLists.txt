@@ -10,3 +10,5 @@ add_executable(sqrt src/babyloniansqrt.c
                     src/taylorsqrt.c
                     src/bitsqrt.c
                     src/main.c)
+
+target_link_libraries(sqrt m)
